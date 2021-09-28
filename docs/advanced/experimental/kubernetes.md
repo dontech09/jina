@@ -104,7 +104,7 @@ f = Flow(
     # name of the service and deployment in Kubernetes
     name='test_searcher',
     # executor has to be containerized
-    uses='jinahub+docker://FaissPostgresSearcher',
+    uses='jinahub+docker://FaissPostgresIndexer',
     # database configuration
     uses_with={
         'hostname': f'postgres.postgres.svc.cluster.local',
@@ -181,7 +181,7 @@ f = Flow(
     name='test_searcher',
     shards=shards,
     replicas=2,
-    uses='jinahub+docker://FaissPostgresSearcher',
+    uses='jinahub+docker://FaissPostgresIndexer',
     uses_with={
         'startup_sync_args': {'only_delta': True},
         'total_shards': shards,
