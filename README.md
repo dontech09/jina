@@ -31,7 +31,7 @@ Jina<sup><a href=".github/pronounce-jina.mp3">`🔊`</a></sup> is a neural searc
 🌩️ **Fast & cloud-native** - Distributed architecture from day one, scalable & cloud-native by design: enjoy
 containerizing, streaming, paralleling, sharding, async scheduling, HTTP/gRPC/WebSocket protocols.
 
-🍱 **Own your stack** - Keep end-to-end stack ownership of your solution, avoid integration pitfalls you get with
+🍱 🍱 **Own your stack** - Keep end-to-end stack ownership of your solution, avoid integration pitfalls you get with
 fragmented, multi-vendor, generic legacy tools.
 
 
